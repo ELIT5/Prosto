@@ -1,4 +1,3 @@
 ﻿  Laba1.cpp
-X:\GitHub\Prosto\Laba1\Laba1\Laba1.cpp(11,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-X:\GitHub\Prosto\Laba1\Laba1\Laba1.cpp(12,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+X:\GitHub\Prosto\Laba1\Laba1\Laba1.cpp(13,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
   Laba1.vcxproj -> X:\GitHub\Prosto\Laba1\x64\Debug\Laba1.exe

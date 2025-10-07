@@ -1,6 +1,2 @@
 ﻿  Laba2.cpp
-X:\GitHub\Prosto\Laba2\Laba2\Laba2.cpp(12,21): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
-X:\GitHub\Prosto\Laba2\Laba2\Laba2.cpp(12,43): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
-X:\GitHub\Prosto\Laba2\Laba2\Laba2.cpp(31,11): warning C4804: <: небезопасное использование типа "bool" в операции
-X:\GitHub\Prosto\Laba2\Laba2\Laba2.cpp(31,25): warning C4804: <: небезопасное использование типа "bool" в операции
   Laba2.vcxproj -> X:\GitHub\Prosto\Laba2\x64\Debug\Laba2.exe
