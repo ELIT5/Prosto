@@ -4,6 +4,7 @@
 
 int main()
 {
+    
     SetConsoleOutputCP(1251); // Вывод на консоль в кодировке 1251.
     std::cout << "1." << '\n';
     int i;
@@ -34,15 +35,15 @@ int main()
     if (0 < N && N < 10 && 0 < M && M < 10) {
         switch (10 * N + M)
         {
-        case 11: std::cout << "Барабанные палочки"; break;
-        case 22: std::cout << "Гуси-лебеди, утята"; break;
-        case 33: std::cout << "Кудри, богатыри"; break;
-        case 44: std::cout << "Стульчики"; break;
-        case 55: std::cout << "Пенсионерка, перчатки, варежки, два петуха"; break;
-        case 66: std::cout << "Валенки, салазки"; break;
-        case 77: std::cout << "Топорики, Семён Семёныч"; break;
-        case 88: std::cout << "Крендельки, бублики, матрёшки, снеговики"; break;
-        default: std::cout << "Номер не дубль"; break;
+        case 11: std::cout << "Барабанные палочки" << '\n'; break;
+        case 22: std::cout << "Гуси-лебеди, утята" << '\n'; break;
+        case 33: std::cout << "Кудри, богатыри" << '\n'; break;
+        case 44: std::cout << "Стульчики" << '\n'; break;
+        case 55: std::cout << "Пенсионерка, перчатки, варежки, два петуха" << '\n'; break;
+        case 66: std::cout << "Валенки, салазки" << '\n'; break;
+        case 77: std::cout << "Топорики, Семён Семёныч" << '\n'; break;
+        case 88: std::cout << "Крендельки, бублики, матрёшки, снеговики" << '\n'; break;
+        default: std::cout << "Номер не дубль" << '\n'; break;
         }
     }
 }
