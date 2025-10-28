@@ -1,23 +1,23 @@
 ﻿#include <iostream>
 #include <windows.h>
 
-void Sredn2(float a, float b) {
+void Sredn(float a, float b) {
 	std::cout << "Среднее значение двух чисел: " << (a + b) / 2;
 }
-void Sredn3(float a, float b, float c) {
+void Sredn(float a, float b, float c) {
 	std::cout << "Среднее значение трёх чисел: " << (a + b + c) / 3;
 }
 void SearchSredn(float a, float b, float c) {
 	if (a != 0) {
 		if (b != 0) {
 			if (c != 0)
-				Sredn3(a, b, c);
+				Sredn(a, b, c);
 			else
-				Sredn2(a, b);
+				Sredn(a, b);
 		}
 		else if (b == 0) {
 			if (c != 0)
-				Sredn2(a, c);
+				Sredn(a, c);
 			else
 				std::cout << "Ошибка. Два или более числа равны 0";
 		}
@@ -25,7 +25,7 @@ void SearchSredn(float a, float b, float c) {
 	}
 	else if (b != 0) {
 		if (c != 0)
-			Sredn2(b, c);
+			Sredn(b, c);
 		else
 			std::cout << "Ошибка. Два или более числа равны 0";
 	}
