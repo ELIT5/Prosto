@@ -8,29 +8,28 @@ void Sredn(float a, float b, float c) {
 	std::cout << "Среднее значение трёх чисел: " << (a + b + c) / 3;
 }
 void SearchSredn(float a, float b, float c) {
-	if (a != 0) {
-		if (b != 0) {
-			if (c != 0)
-				Sredn(a, b, c);
-			else
-				Sredn(a, b);
-		}
-		else if (b == 0) {
-			if (c != 0)
-				Sredn(a, c);
-			else
-				std::cout << "Ошибка. Два или более числа равны 0";
-		}
-
-	}
-	else if (b != 0) {
-		if (c != 0)
+	if (a != 0 && b != 0 && c != 0)
+		Sredn(a, b, c);
+	else if (a == 0) {
+		if (b != 0 && c != 0)
 			Sredn(b, c);
 		else
-			std::cout << "Ошибка. Два или более числа равны 0";
+			std::cout << "Функции для одного числа нет";
+	}
+	else if (b == 0) {
+			if (c != 0 && a != 0)
+				Sredn(a, c);
+			else
+				std::cout << "Функции для одного числа нет";
+	}
+	else if (c == 0) {
+		if (b != 0 && a != 0)
+			Sredn(a, b);
+		else
+			std::cout << "Функции для одного числа нет";
 	}
 	else
-		std::cout << "Ошибка. Два или более числа равны 0";
+		std::cout << "Функции для одного числа нет";
 }
 void Lab1(int x) {
 	if (x != 0)
@@ -38,7 +37,6 @@ void Lab1(int x) {
 	else
 		std::cout << "Ошибка. Число равно 0";
 }
-
 int main()
 {
 	SetConsoleOutputCP(1251);
