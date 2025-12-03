@@ -10,14 +10,4 @@ X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(26,28): warning C4267:         [
 X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(26,28): warning C4267:             _Ty=int
 X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(26,28): warning C4267:         ]
 X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(28,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(36,28): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
-X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(36,28): warning C4267:         with
-X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(36,28): warning C4267:         [
-X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(36,28): warning C4267:             _Ty=int
-X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(36,28): warning C4267:         ]
-X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(40,28): warning C4267: аргумент: преобразование из "size_t" в "_Ty"; возможна потеря данных
-X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(40,28): warning C4267:         with
-X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(40,28): warning C4267:         [
-X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(40,28): warning C4267:             _Ty=int
-X:\GitHub\Prosto\Laba7\Laba7\Laba7.cpp(40,28): warning C4267:         ]
   Laba7.vcxproj -> X:\GitHub\Prosto\Laba7\x64\Debug\Laba7.exe

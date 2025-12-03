@@ -32,14 +32,10 @@ void add_start(vec& arr, int num) {
 }
 
 void add_end(vec& arr, int num) {
-	if (arr.capacity() > arr.size() + 1) {
-		arr.push_back(arr.size() + 1);
-	}
-	else {
+	if (arr.capacity() < arr.size() + 1) {
 		arr.reserve(20);
-		arr.push_back(arr.size() + 1);
 	}
-	arr[arr.size()-1] = num;
+	arr.push_back(num);
 }
 
 void find_el(vec& arr, int num) {
