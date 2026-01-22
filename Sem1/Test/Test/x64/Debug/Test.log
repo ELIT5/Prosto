@@ -1,0 +1,98 @@
+﻿  Test.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1239,54): error C2794: reference: не является прямым или косвенным базовым классом для "std::iterator_traits<_InIt>"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1239,54): error C2794:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1239,54): error C2794:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1239,54): error C2794:             _InIt=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1239,54): error C2794:         ]
+  (компиляция исходного файла "Test.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1239,54):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          X:\GitHub\Prosto\Sem1\Test\Test\Test.cpp(224,23):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_InIt std::find<int,int>(_InIt,const _InIt,const _Ty &)"
+          with
+          [
+              _InIt=int,
+              _Ty=int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6174,41):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_InIt std::_Find_unchecked<_InIt,_Ty>(_InIt,const _InIt,const _Ty &)"
+          with
+          [
+              _InIt=int,
+              _Ty=int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6117,19):
+          выполняется компиляция ссылки на шаблон переменной "const bool _Vector_alg_in_find_is_safe<int,int>"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6055,9):
+          выполняется компиляция ссылки на шаблон переменной "const bool _Iterator_is_volatile<int>"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4642,73):
+          выполняется компиляция ссылки на экземпляр псевдоним шаблон функции "std::_Iter_ref_t<_InIt>"
+          with
+          [
+              _InIt=int
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4642,73): error C2938: "std::_Iter_ref_t": не удалось специализировать шаблон псевдонима
+  (компиляция исходного файла "Test.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4642,40): error C2062: тип "<error type>" не требуется
+  (компиляция исходного файла "Test.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6055,9): error C3376: "std::_Iterator_is_volatile": разрешены только шаблоны статических элементов данных
+  (компиляция исходного файла "Test.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1242,56): error C2794: value_type: не является прямым или косвенным базовым классом для "std::iterator_traits<_InIt>"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1242,56): error C2794:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1242,56): error C2794:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1242,56): error C2794:             _InIt=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1242,56): error C2794:         ]
+  (компиляция исходного файла "Test.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(1242,56):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6057,46):
+          выполняется компиляция ссылки на экземпляр псевдоним шаблон функции "std::_Iter_value_t<_InIt>"
+          with
+          [
+              _InIt=int
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6057,46): error C2938: "std::_Iter_value_t": не удалось специализировать шаблон псевдонима
+  (компиляция исходного файла "Test.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6057,8): error C2062: тип "<error type>" не требуется
+  (компиляция исходного файла "Test.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6117,19): error C3376: "std::_Vector_alg_in_find_is_safe": разрешены только шаблоны статических элементов данных
+  (компиляция исходного файла "Test.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6117,19): error C2131: выражение не определяется константой
+  (компиляция исходного файла "Test.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6117,19):
+      ошибка вызвана чтением неинициализированного символа
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6117,19):
+      см. использование "std::_Vector_alg_in_find_is_safe<int,int>"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6127,42): error C2672: "std::_Find_vectorized": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "Test.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(190,6):
+      может быть "_Ty *std::_Find_vectorized(_Ty *const ,_Ty *const ,const _TVal) noexcept"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6127,42):
+          '_Ty *std::_Find_vectorized(_Ty *const ,_Ty *const ,const _TVal) noexcept': не удалось вывести аргумент шаблон для '_Ty *const ' из 'const _Iter'
+          with
+          [
+              _Iter=int
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6127,24): error C2737: "_Result": необходимо инициализировать объект const
+  (компиляция исходного файла "Test.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6131,34): error C3536: _Result: не может использоваться до инициализации
+  (компиляция исходного файла "Test.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6160,13): error C2100: нельзя разыменовать операнд типа "_InIt"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6160,13): error C2100:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6160,13): error C2100:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6160,13): error C2100:             _InIt=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(6160,13): error C2100:         ]
+  (компиляция исходного файла "Test.cpp")
+  
