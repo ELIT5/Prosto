@@ -5,7 +5,7 @@
 #include <iterator>
 
 
-namespace mt {
+namespace zk {
 
 
     class clock {
@@ -66,7 +66,7 @@ namespace mt {
                     int days_added = hours_ / 24;
                     day_ += days_added;
                     if (std::distance(std::begin(days_), std::find(std::begin(days_), std::end(days_), day_of_week_)) + days_added >= 7) {
-                        int days_of_week_added = std::distance(std::begin(days_), std::find(std::begin(days_), std::end(days_), day_of_week_)) + days_added / 7;
+                        int days_of_week_added = (std::distance(std::begin(days_), std::find(std::begin(days_), std::end(days_), day_of_week_)) + days_added) % 7;
                         day_of_week_ = days_[days_of_week_added];
                     }
                     else {
@@ -140,6 +140,7 @@ namespace mt {
 int main()
 {
     SetConsoleOutputCP(1251);
-    mt::clock a;
+    zk::clock a;
+    a.add_minutes(9999);
     a.print();
 }
