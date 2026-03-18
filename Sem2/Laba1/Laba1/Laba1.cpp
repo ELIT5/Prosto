@@ -76,10 +76,6 @@ namespace zk {
                     if (day_ > 28 && month_ == 2) {
                         month_ += 1;
                         day_ = day_ - 28;
-                        if (month_ > 12) {
-                            year_ += month_ / 12;
-                            month_ = month_ % 12;
-                        }
                     }
                     if (day_ > 31 && is_month_31_(month_)) {
                         month_ += day_ / 31;
@@ -141,6 +137,5 @@ int main()
 {
     SetConsoleOutputCP(1251);
     zk::clock a;
-    a.add_minutes(9999);
     a.print();
 }

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.22)
+set(PROJECT_NAME lib)
+project("${PROJECT_NAME}")
+set(CMALE_CXX_STANDART 20)
+add_library("${PROJECT_NAME}" STATIC src/lib.cpp)
+target_include_directories("${PROJECT_NAME}" PUBLIC inc)
