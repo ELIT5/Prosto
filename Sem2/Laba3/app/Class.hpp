@@ -24,6 +24,7 @@ namespace zk{
             clock& operator+(clock& other);
             clock& operator/(clock& other);
             bool define_date(const clock& date1, const clock& date2);
+            Battery battery;
         private:
             bool is_month_31_(int month);
             bool is_month_30_(int month);
@@ -37,6 +38,5 @@ namespace zk{
             std::string day_of_week_ = "Четверг";
             std::string days_[7] = { "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье" };
             std::vector<std::string> dela_ = {"Поесть", "Учёба"};
-            Battery battery;
     }; 
 }

@@ -3,7 +3,7 @@
 #include <iterator>
 #include <vector>
 #include <random>
-#include "Class.hpp"
+#include <Class.hpp>
 
 namespace zk {
     clock::clock() = default;
@@ -56,7 +56,7 @@ namespace zk {
     
     void clock::add_minutes(int added) {
         if ((hours_ + ((added + minutes_) / 60)) / 24 > battery.current_charge){
-            added = 0;
+            added = battery.current_charge * 24 * 60;
         }
         minutes_ += added;
         if (minutes_ >= 60) {

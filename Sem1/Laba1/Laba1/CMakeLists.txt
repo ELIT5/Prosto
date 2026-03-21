@@ -2,12 +2,14 @@ cmake_minimum_required(VERSION 3.15) # Проверка версии CMake.
 									 # Если версия установленой программы
 									 # старее указаной, произайдёт аварийный выход.
 
-set(PROJECT_NAME Laba3) 			 # задать значение PROJECT_NAME		 
+set(PROJECT_NAME Laba1) 			 # задать значение PROJECT_NAME		 
 project("${PROJECT_NAME}")           # установить имя проекта
 
 
 set(CMAKE_CXX_STANDARD 20)			 # устанавливаем 17 стандарт языка
 
 # Сказать программе, что должен быть исполняемый файл
-add_executable("${PROJECT_NAME}" Laba3.cpp Class.cpp)
+add_executable("${PROJECT_NAME}" Laba1.cpp)
+target_include_directories("${PROJECT_NAME}" PUBLIC inc)
+target_link_directories("${PROJECT_NAME}" PRIVATE lib)
 target_link_libraries("${PROJECT_NAME}" PRIVATE lib)
